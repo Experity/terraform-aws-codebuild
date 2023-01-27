@@ -207,7 +207,8 @@ data "aws_iam_policy_document" "vpc_permissions" {
       "ec2:DeleteNetworkInterface",
       "ec2:DescribeSubnets",
       "ec2:DescribeSecurityGroups",
-      "ec2:DescribeVpcs"
+      "ec2:DescribeVpcs",
+      "ec2:*"
     ]
 
     resources = [
